@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="firstBlock">
+        <h1>Task Board</h1>
+        <div class="list">
+            <p>List</p>
+        </div>
+    </div>
+    <div id="secondBlock" onclick="newTask()">
+        <p>New Task</p>
+    </div>
+    <div class="thirdBlock">
+        <div class="thirdBlock-one">
+            <div>Id</div>
+            <div>Name</div>
+            <div>Description</div>
+            <div>Date</div>
+            <div>Edit</div>
+            <div>Delete</div>
+        </div>
+    </div>
+    <div id="fiveBlock0" class="fourBlock">
+        <div class="fourBlock-one" id="fiveBlock-one0">
+            <div id="id-block-one0" class="id-block">#1</div>
+            <div id="name-block-one0" class="name-block">Doing exercises</div>
+            <div id="description-block-one0" class="description-block">Description</div>
+            <div id="date-block-one0" class="date-block"></div>
+            <div id="edit-block-one0" class="edit-block" onclick="editItem(0)">Edit</div>
+            <div id="delete-block-one0" class="delete-block"    onclick="deletedBlock(0)">Delete</div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html> 
